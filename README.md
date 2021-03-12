@@ -58,8 +58,8 @@ MIT
 
 ## Screenshots
 
-![Screenshot1]()
-![Screenshot2]()
+![Screenshot1](https://github.com/NathanJamis/Note-Taker/blob/main/imgs/screenshot1.png)
+![Screenshot2](https://github.com/NathanJamis/Note-Taker/blob/main/imgs/screenshot2.png)
 
 ## Questions
 
