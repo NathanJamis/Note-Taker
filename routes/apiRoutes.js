@@ -14,18 +14,14 @@ module.exports = (app) => {
         };
         db.push(newNote);
         fs.writeFile('./db/db.json', JSON.stringify(db), (err, data) => {
-            if (err) {
-                throw err;
-            }
+            if (err) throw err;
         });
         res.end();
     });
     app.delete('/api/notes/:id', (req, res) => {
         db.splice(db.findIndex(element => element.id == req.params.id), 1);
         fs.writeFile('/db/db.json', JSON.stringify(db), (err, data) => {
-            if (err) {
-                throw err;
-            }
+            if (err) throw err;
         });
         res.end();
     })
